@@ -5,7 +5,6 @@ import { Home } from "./componentes/Home";
 import { Producto } from "./componentes/Producto";
 import { QueryClient, QueryClientProvider } from "react-query";
 import { Balance } from "./componentes/Balance";
-import { ethers } from "ethers";
 import "./index.css";
 
 const queryClient = new QueryClient();
