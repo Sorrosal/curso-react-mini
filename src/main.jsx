@@ -2,9 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Home } from "./componentes/Home";
-import { Producto } from "./componentes/Producto";
+import { Producto } from "./modulos/Producto/Producto.jsx";
 import { QueryClient, QueryClientProvider } from "react-query";
-import { Balance } from "./componentes/Balance";
+import { Balance } from "./modulos/Balance/Balance.jsx";
 import "./index.css";
 
 const queryClient = new QueryClient();
